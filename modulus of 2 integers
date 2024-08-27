@@ -1,0 +1,10 @@
+import java.io.*;
+public class Main
+{
+	public static void main(String[] args) {
+		int x=89;
+		float y=7;
+		float z=x%y;
+		System.out.println("Result of "+x+" and "+y+" = "+z);
+	}
+}
