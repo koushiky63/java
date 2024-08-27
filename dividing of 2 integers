@@ -1,0 +1,9 @@
+public class Main
+{
+	public static void main(String[] args) {
+		float x=109;
+		float y=3;
+		float z=x/y;
+		System.out.println("Result of "+x+" and "+y+" ="+z);
+	}
+}
