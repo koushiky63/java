@@ -1,0 +1,14 @@
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println("\t\t\t Student Details\t");
+		System.out.println("Name:V.koushik");
+		System.out.println("\t\t\t Regd No:23K61A4763");
+		System.out.println("Father name:V.T.Nagendra");
+		System.out.println("\t\t\t Aadhar No:319809575070");
+		System.out.println("Occupation:Fitter");
+		System.out.println("\t\t\t D.O.B:09/03/2006");
+		System.out.println("Parent Mobile No:7989374426");
+		System.out.print("\t\t\tNo.of subjects passed:10");
+	}
+}
