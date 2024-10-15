@@ -1,0 +1,40 @@
+import java.util.Scanner;
+
+public class Book {
+String title;
+	String author;
+	int pageCount;
+	Book() {
+		title="java";
+		author="koushik";
+		pageCount=0;
+	}
+	Book(String title,String author) {
+		this.title=title;
+		this.author=author;
+	}
+	Book(String title,String author,int pageCount) {
+		this.title=title;
+		this.author=author;
+		this.pageCount=pageCount;
+	}
+	public void displayBookDetails() {
+	System.out.println("Title: "+title);
+		System.out.println("Author: "+author);
+		System.out.println("Page Count: "+pageCount);
+}
+ public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Details for Book 1:");
+        System.out.print("Title: ");
+        String title1 = scanner.nextLine();
+        System.out.print("Author: ");
+        String author1 = scanner.nextLine();
+        Book book1 = new Book(title1, author1);
+        System.out.println("Details for Book 2:");
+        System.out.print("Title: ");
+        String title2 = scanner.nextLine();
+        System.out.print("Author: ");
+        String author2 = scanner.nextLine();
+        System.out.print("Page Count: ");
+        int pageCount2 = scanner.nextInt();
